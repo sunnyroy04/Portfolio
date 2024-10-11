@@ -1,0 +1,72 @@
+@ -0,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sunny Kumar</div>
+        <div class="nav-links">
+            <li><a href="about">About</a></li>
+            <li><a href="Experience">Experience</a></li>
+            <li><a href="Project">Project</a></li>
+            <li><a href="Contact">Contact</a></li>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sunny Kumar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="about"  onclick="toggleMenu()">About</a></li>
+                <li><a href="Experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="Project" onclick="toggleMenu()">Project</a></li>
+                <li><a href="Contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section-container">
+        <div class="section__pic-container">
+            <img src="./assetss/sunnydp.png" class="sunny" alt="Sunny Kumar profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Helllo,i'm</p>
+            <h1 class="title">Sunny Kumar</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="social-container">
+                <button class="btn btn-color-1" onclick="window.open('./assetss/resume.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href ='./#contact'">Contact</button>
+            </div>
+            <div id="social-container">
+                <img src="./assetss/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href ='https://www.linkedin.com/in/sunny-kumar-0812b1213/'">
+
+                <img src="./assetss/github.png" alt="My Github Profile" class="icon" onclick="location.href ='https://github.com/sunnyroy04'">
+
+
+                <img src="./assetss/images.png" alt="My Leetcode Profile" class="icon" onclick="location.href ='https://leetcode.com/u/sunny______kr/'">
+                <img src="./assetss/codechef.png" alt="My CodeChef Profile" class="icon" onclick="location.href ='https://www.codechef.com/users/sunny_kr'">
+
+                
+            </div>
+        </div>
+            
+        </div>
+    
+    </section>
+    <section id="about">
+        <p c></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
